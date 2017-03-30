@@ -1,0 +1,151 @@
+body {
+    font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
+    background: #eae6d1;
+    width:100%;
+    border:0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right:10px;
+}
+
+header{
+    background: #6397D0;
+    height: 90px;
+    width: 100%;
+
+}
+
+.button{
+    color:#393939;
+        padding-bottom: 10px;
+        padding-left: 10px;
+}
+
+#banner{
+    background: #ffcc00;
+    alignment: center;
+    border-button: 10px ;
+    margin-left:100px ;
+    margin-right: 100px ;
+    height: 50px ;
+    margin-top:-2%;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 275%;
+       }
+
+nav{
+    float:left;
+}
+nav ul{
+    padding-left: 70px;
+    padding-right: 10px;
+    font-size: 14px;
+    heiht: 24px;
+    list-style-type: none;
+}
+
+nav ul a{
+    color:#666666;
+    }
+nav ul a:hover
+{
+    color:#999999;
+}
+
+.tag-h2 {
+    text-align: right;
+}
+
+section {
+    background: #fdfcf4;
+    width:600px;
+    float:left;
+    padding:20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #393939;
+}
+
+h3, h4, h5, h6 {
+    color: #666666;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+
+th {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #444;
+}
+
+td {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #ffcc00;
+}
+
+a{
+    text-color:#3399cc;
+    text-decoration: none;
+}
+
+img [alt=diagram1]{
+    width: 50%;
+}
+
+.subsection{
+    border:0px;
+    padding-bottom: 20px;
+    background: transparent url("../images/hr.gif") bottom center repeat-x;
+}
+
+.subsection:last-child{
+    border:0px;
+    padding-bottom: 20px;
+    background: transparent;
+}
+
+#banner #logo {
+    alignment: right;
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    right: 7px;
+    top: 7px;
+    display: block;
+    background: url(../images/octocat-logo.png);
+}
+
+#banner .button {
+    border: 1px solid #dba500;
+    background: #ffe788;
+    border-radius: 2px;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #FFE788;
+    margin-left: 5px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+#banner .button:hover {
+    background: #ffe788;
+    background-color: #ffeca0;
+}

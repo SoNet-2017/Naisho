@@ -1,7 +1,7 @@
 @media screen and (min-width: 480px) {
 
     body {
-        font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font: 14px/22px 'Times New Roman', "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #666;
         background: #eae6d1;
         width: 100%;
@@ -9,11 +9,12 @@
 
     h1 {
         font-size: 28px;
+        color: fuchsia;
     }
 
     h2 {
         font-size: 24px;
-        color: #393939;
+        color: black;
     }
 
     h3, h4, h5, h6 {

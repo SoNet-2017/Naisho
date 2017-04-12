@@ -66,7 +66,7 @@
 
     }
 
-    #banner {
+    .banner {
         position: relative;
         float: inherit;
         height: 50px;
@@ -141,7 +141,7 @@
         background: transparent;
     }
 
-    #banner .button {
+    .banner .button {
         border: 1px solid #dba500;
         border-radius: 5px;
         background-color: #ffe788;
@@ -153,7 +153,7 @@
         padding: 10px;
     }
 
-    #banner #logo {
+    .banner #logo {
         position: relative;
         float: right;
         height: 36px;
@@ -164,7 +164,7 @@
         background: url(../images/simbolo.jpg);
     }
 
-    #banner #logo1 {
+    .banner #logo1 {
         background: url(../images/naishologo.png);
         /*background-repeat: no-repeat;
         background-position: center center;*/

@@ -8,12 +8,16 @@
     }
 
     h1 {
-        font-family: "Javanese Text";
+
+        /*background: url(../images/naishologo.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        /*font-family: "Javanese Text";
         font-size: 56px;
         font-weight: 900;
         color: aquamarine;
         float: left;
-        text-indent: 13%;
+        text-indent: 13%;*/
 
     }
 
@@ -55,7 +59,7 @@
         right: 0;
         width: 100%;
         text-align: center;
-        background: url(../images/LOTO.jpg);
+        background: url(../images/lotosfondo.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         height: 76px;
@@ -159,179 +163,21 @@
         display: block;
         background: url(../images/simbolo.jpg);
     }
-}
 
-
-@media screen and (max-width: 480px) {
-
-    body {
-        font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #666;
-        background: #eae6d1;
-        width: 100%;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    h2 {
-        font-size: 24px;
-        color: #393939;
-    }
-
-    h3, h4, h5, h6 {
-        color: #666666;
-    }
-
-    h3 {
-        font-size: 18px;
-    }
-
-    th {
-        text-align: left;
-        padding: 5px 10px;
-        border-bottom: 1px solid #e5e5e5;
-        color: #444;
-    }
-
-    td {
-        text-align: left;
-        padding: 5px 10px;
-        border-bottom: 1px solid #e5e5e5;
-        border-right: 1px solid #ffcc00;
-    }
-
-    header {
-        padding-top: 25px;
-        padding-bottom: 40px;
-        position: relative;
-        float: inherit;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        text-align: center;
-        background: #4276b6;
-        height: 76px;
-    }
-
-    #banner {
-        position: relative;
-        float: inherit;
-        height: 50px;
-        background: #ffcc00;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-        top: -25px;
-        border: 1px solid #f0b500;
-        border-radius: 5px 5px 5px 5px;
-    }
-
-    .wrapper {
-        width: 80%;
-        margin: 0 auto;
-        position: relative;
-    }
-
-    section {
-        padding-left: 3%;
-        padding-right: 3%;
-        position: relative;
-        float: left;
-        background: #fbfbfb;
-        border-radius: 3px;
-        border: 1px solid #cbcbcb;
-        width:100%;
-    }
-
-    nav {
-        display: block;
-        background-image: url(../images/icon_list.png);
-        background-size: 25px 25px;
-        background-repeat: no-repeat;
-        background-position: 10px 15px;
-        padding:10px;
-        min-height:30px;
-        width: 100%;
-        position: relative;
-        float: left;
-        border: 1px solid black;
-    }
-
-    a {
-        color: #3399cc;
-        text-decoration: none;
-    }
-
-    nav ul {
-        list-style: none;
-        font-size: 14px;
-        line-height: 24px;
-        display: block;
-    }
-
-    nav ul li {
-        display: none;
-        margin: 0;
-    }
-
-    nav:hover ul li {
-        display: block;
-        margin: 0 0 5px;
-    }
-
-    nav ul a {
-        color: #666;
-    }
-
-    nav ul a:hover {
-        color: #999;
-    }
-
-    img[alt=diagram1] {
-        width: 50%;
-    }
-
-    .subsection {
-        border: 0;
-        background: transparent url("../images/hr.gif") bottom center repeat-x;
-        padding-bottom: 20px;
-    }
-
-    .subsection:last-of-type {
-        border: 0;
-        padding-bottom: 20px;
-        background: transparent;
-    }
-
-    #banner .button {
-        border: 1px solid #dba500;
-        border-radius: 5px;
-        background-color: #ffe788;
-        margin-top: 7px;
-        line-height: 14px;
-        color: #333;
-        display: inline-block;
-        text-align: center;
-        padding: 10px;
-    }
-
-    #banner #logo {
-        position: relative;
-        float: right;
-        height: 36px;
-        width: 36px;
+    #banner #logo1 {
+        background: url(../images/naishologo.png);
+        /*background-repeat: no-repeat;
+        background-position: center center;*/
+        height: 225px;
+        width: 400px;
         right: 7px;
         top: 7px;
         display: block;
-        background: url(../images/octocat-logo.png);
+        margin-left: 400px;
+        margin-right: 600px;
+        margin-top: -50px;
     }
-    .subsection table
-    {
-        table-layout: fixed;
-        width: 100%;
-        word-wrap: break-word;
-    }
+
 }
+
+

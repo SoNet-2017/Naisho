@@ -1,2 +1,2 @@
-# NewSocial
-https://sonet-2017.github.io/NewSocial/
+# Naisho
+https://sonet-2017.github.io/Naisho/

@@ -3,7 +3,7 @@
     body {
         font: 14px/22px 'Times New Roman', "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #666;
-        background: #99FFFF;/*#eae6d1;*/
+        background: #ABCDEF;/*#eae6d1;*/
         width: 100%;
     }
 
@@ -91,7 +91,7 @@
         padding-right: 3%;
         position: relative;
         float: right;
-        background: #CCFFCC;
+        background:#FFFACD;
         border-radius: 3px;
         border: 1px solid #cbcbcb;
     }

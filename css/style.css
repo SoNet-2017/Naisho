@@ -177,10 +177,15 @@
         margin-right: 600px;
         margin-top: -50px;
     }
-    #architettura{
+    .img-responsive {
+        display: inline-block;
+        height: auto;
+        max-width: 100%;
+    }
+    /*#architettura{
         position: relative;
        
-    }
+    }*/
 
 }
 

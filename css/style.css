@@ -165,17 +165,19 @@
     }
 
     .banner #logo1 {
-        background: url(../images/logoconscritta.png);
+        background: url(../images/logoconscritta.png) no-repeat;
         /*background-repeat: no-repeat;
         background-position: center center;*/
-        height: 100px;
-        width: 200px;
+        height: 300px;
+        width: 500px;
         right: 7px;
         top: 7px;
         display: block;
-        margin-left: 400px;
-        margin-right: 600px;
-        margin-top: -50px;
+        margin-left: 500px;
+
+        margin-top: -36px;
+
+
     }
     .img-responsive {
         display: inline-block;
